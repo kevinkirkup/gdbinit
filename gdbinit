@@ -1,4 +1,4 @@
-source ~/.gdb/reverseEngineeringNet.gdbinit
+source ~/.gdb/default.gdbinit
 
 set disassembly-flavor att
 
@@ -19,5 +19,3 @@ define po
     print-object $arg0 
     set $SHOW_CONTEXT = $_PREV_CONTEXT_STATUS
 end
-
-    
