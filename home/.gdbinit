@@ -1,5 +1,5 @@
 # GDB settings for X-Code
-set start-with-shell 0
+#set start-with-shell 0
 
 # Source the defualt GDB init
 source ~/.gdb/reverseEngineer.gdbinit
@@ -12,7 +12,7 @@ context-off
 
 define ctx
     context
-    end 
+    end
 document ctx
     Alias to the context list
 end
